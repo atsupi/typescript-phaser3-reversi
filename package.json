@@ -1,0 +1,26 @@
+{
+  "name": "tutorial_11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "dev": "nodemon index.js",
+    "parceltest": "mkdir -p dist && cp -rf game/assets dist/assets && parcel game/index.html",
+    "parcelbuild": "tsc --noEmit && parcel build game/index.html --out-dir build --no-source-maps --public-url ./ && cp -rf game/assets build/assets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atsupi/phaser3-study"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "phaser": "^3.60.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
