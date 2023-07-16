@@ -1,7 +1,7 @@
 /********************************************************
  Title: Reversi game in TypeScript using Phaser3 library
  Filename: main.ts
- Copyright 2023 atsupi.com
+ Copyright (c) 2023 atsupi
 *********************************************************/
 
 import Phaser from "phaser";
