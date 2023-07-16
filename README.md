@@ -1,4 +1,4 @@
-# Reversi in TypeScript using Phaser3 library
+# Reversi game in TypeScript using Phaser3 library
 
 ## Run Reversi
 
